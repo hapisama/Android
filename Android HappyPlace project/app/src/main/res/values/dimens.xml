@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="mainContentPadding">16dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="boxesMargin">16dp</dimen>
+    <dimen name="noHappyPlace">15dp</dimen>
+
+    <dimen name="itemStartEndMargin">8dp</dimen>
+    <dimen name="itemCornerRadius">3dp</dimen>
+    <dimen name="itemElevation">3dp</dimen>
+    <dimen name="itemContentPadding">5dp</dimen>
+    <dimen name="itemStartMargin">10dp</dimen>
+    <dimen name="itemEndMargin">2dp</dimen>
+    <dimen name="itemTitleTextSize">16sp</dimen>
+    <dimen name="itemDescriptionTextSize">14sp</dimen>
+    <dimen name="itemCircularImageSize">70dp</dimen>
+
+    <dimen name="detailLayout">8dp</dimen>
+    <dimen name="detailTextSize">16sp</dimen>
+    <dimen name="detailPaddingTop">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>
