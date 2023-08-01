@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="436dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/ic_trophy" />
+        <TextView
+            android:id="@+id/congratTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Hey, Congratulation!!"
+            android:padding="10dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="username"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="you scored 0 from 10"
+            android:gravity="center"
+            android:padding="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/finishBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINISH"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
